@@ -1,0 +1,19 @@
+# --- Entorno y dependencias ---
+node_modules/
+.env
+
+# --- Firebase ---
+.firebase/
+firebase-debug.log
+.firebaserc
+
+# --- Sistema Operativo y editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Otros ---
+*.log
+dist/
+build/

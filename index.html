@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Noticias - Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Portal de Noticias</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Política</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tecnología</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Deportes</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-primary ms-lg-2" href="crear-noticia.html">Postear Noticia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html" id="btn-login">Login/Registro</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white py-5 mb-4">
+        <div class="container text-center">
+            <h1 class="display-4">Bienvenido a mi Blog Digital</h1>
+            <p class="lead">Información actualizada y veraz desde Firebase Cloud</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            
+            <div class="col-md-8">
+                <h3 class="mb-4">Últimas Noticias</h3>
+                <div id="contenedor-noticias">
+                    <div class="d-flex justify-content-center py-5">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Cargando noticias...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="col-md-4">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-secondary text-white">
+                        Noticias revisadas recientemente
+                    </div>
+                    <ul class="list-group list-group-flush" id="noticias-revisadas">
+                        <li class="list-group-item text-muted small">Aún no has visto ninguna noticia.</li>
+                    </ul>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Portafolio Profesional - Desarrollo de Blog de Noticias</p>
+            <small>Desplegado en GitHub Pages | Backend por Firebase</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script type="module" src="assets/js/app.js"></script>
+
+</body>
+</html>
