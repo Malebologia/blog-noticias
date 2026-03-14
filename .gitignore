@@ -7,6 +7,9 @@ node_modules/
 firebase-debug.log
 .firebaserc
 
+# --- Archivo de configuración de entorno
+firebase-init.js
+
 # --- Sistema Operativo y editores ---
 .DS_Store
 Thumbs.db
